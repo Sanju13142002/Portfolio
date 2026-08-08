@@ -83,6 +83,14 @@ emailBtn.addEventListener("click", () => {
     window.location.href = "contact.html";
 });
 
+// About button
+const aboutBtn = document.querySelector(".name-heading");
+
+aboutBtn.addEventListener("click", () => {
+    window.location.href = "about.html";
+});
+
+name-heading
 // Location Card
 const locationDiv = document.querySelector(".location-card");
 
