@@ -122,13 +122,3 @@ githubCard.addEventListener("click", () => {
     );
 });
 
-const gamingListBtn = document.querySelector("#gaming-list-btn");
-
-if (gamingListBtn) {
-    gamingListBtn.addEventListener("click", () => {
-        window.open(
-            "https://www.google.com/search?q=best+games+like+Valorant+GTA+V+RDR2+Minecraft",
-            "_blank"
-        );
-    });
-}
