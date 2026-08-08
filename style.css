@@ -1608,3 +1608,9 @@ nav{
         width: 100%;
     }
 }
+
+.github-card1 {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}

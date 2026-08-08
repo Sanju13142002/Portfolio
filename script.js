@@ -111,29 +111,4 @@ locationDiv.addEventListener("click", () => {
         "_blank"
     );
 });
-
-// Github card
-// const githubCard = document.querySelector(".github-card1");
-
-// if (githubCard) {
-//     githubCard.addEventListener("click", () => {
-//         window.open(
-//             "https://github.com/Sanju13142002",
-//             "_blank"
-//         );
-//     });
-// }
-// GitHub card
-const githubCard = document.querySelector(".github-card1");
-
-if (githubCard) {
-    githubCard.style.cursor = "pointer";
-
-    githubCard.addEventListener("click", function () {
-        window.open(
-            "https://github.com/Sanju13142002",
-            "_blank"
-        );
-    });
-}
-
+    
