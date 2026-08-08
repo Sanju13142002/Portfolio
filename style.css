@@ -1523,3 +1523,19 @@ nav{
 .explore-card {
     cursor: pointer;
 }
+
+/* Fix Valorant card on mobile */
+@media (max-width: 768px) {
+
+    .gaming-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .current-card {
+        width: 100%;
+        min-height: 280px;
+        height: 280px;
+    }
+
+}
