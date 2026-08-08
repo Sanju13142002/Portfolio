@@ -1261,7 +1261,9 @@ nav a.active {
 
 }
 @media (max-width:992px){
-
+    .icon-hide {
+        display: none;
+    }
 .wrapper{
     flex-direction:column;
 }
@@ -1406,6 +1408,9 @@ body{
 
 }
 @media (max-width:576px){
+    .icon-hide {
+        display: none;
+    }
 
 .logo{
     font-size:28px;
@@ -1526,7 +1531,9 @@ nav{
 
 /* Fix Valorant card on mobile */
 @media (max-width: 768px) {
-
+    .icon-hide {
+        display: none;
+    }
     .gaming-top {
         display: flex;
         flex-direction: column;
