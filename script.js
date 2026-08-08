@@ -90,6 +90,17 @@ aboutBtn.addEventListener("click", () => {
     window.location.href = "about.html";
 });
 
+//Github card 
+const githubProjectCard = document.querySelector(".github-card");
+
+if (githubProjectCard) {
+    githubProjectCard.addEventListener("click", () => {
+        window.open(
+            "https://github.com/Sanju13142002",
+            "_blank"
+        );
+    });
+}
 name-heading
 // Location Card
 const locationDiv = document.querySelector(".location-card");
